@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Janastu - Let it be people!
-email: admin@janastu.org
+email: admin at janastu dot org
 description: Janastu.org and Servelots.com have been engaged for two decades doing research and technology development along with the social sector and small and medium enterprises in the region of Karnataka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
