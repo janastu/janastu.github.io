@@ -5,15 +5,3 @@
 layout: home
 ---
 
-
-All our research projects
-{% for lab in site.labs %}
- <h2> <a href="{{ lab.url }}"> {{ lab.title }} </a></h2>
- 
-{% endfor %}
-
-# PROJECTS
-{% for project in site.projects %}
-  <h2> <a href="{{ project.url }}"> {{ project.title }} </a></h2>
-
-{% endfor %}
