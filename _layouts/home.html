@@ -7,13 +7,13 @@ layout: default
 All our research projects
 {% for lab in site.labs %}
  <h3> <a href="{{ lab.url }}"> {{ lab.title }} </a></h3>
- <p>{{ post.excerpt }} </p>
+ <p>{{ lab.excerpt }} </p>
 {% endfor %}
 
 <h2>PROJECTS</h2>
 {% for project in site.projects %}
  <h3> <a href="{{ project.url }}"> {{ project.title }} </a></h3>
- <p>{{ post.excerpt }} </p>
+ <p>{{ project.excerpt }} </p>
 {% endfor %}
 
  <h2>POSTS</h2>
