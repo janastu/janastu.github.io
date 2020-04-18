@@ -9,13 +9,13 @@ All our research projects
  <h3> <a href="{{ lab.url }}"> {{ lab.title }} </a></h3>
  <p>{{ lab.excerpt | truncatewords: 50 }} </p>
 {% endfor %}
-
+<hr />
 <h2>PROJECTS</h2>
 {% for project in site.projects %}
  <h3> <a href="{{ project.url }}"> {{ project.title }} </a></h3>
  <p>{{ project.excerpt | truncatewords: 50 }} </p>
 {% endfor %}
-
+<hr />
  <h2>POSTS</h2>
 {% for post in site.posts %}
  <h3> <a href="{{ post.url }}"> {{ post.title }} </a></h3>
